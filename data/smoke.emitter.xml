@@ -1,0 +1,18 @@
+<Emitter>	
+	<emitter_property matName="smoke" texture="data/fadingParticle.png" rotationX="0" rotationY="0" rotationZ="0" blending="fade" num_particles="1000"
+ duration="-1.0" mode="continuous" type="box" width="1" height="2" depth="0" randomBirthRate="true" minBirthRate="30" maxBirthRate="45"/>
+
+
+ 	<spawn_property name="velocity" type="random" minX="-1" minY="1" minZ="0" maxX="2" maxY="5" maxZ="0"/>
+ 	<spawn_property name="color" type="constant" valueR="120" valueG="120" valueB="120"/>
+ 	<spawn_property name="scale" type="random" min="75" max="100"/>
+	<spawn_property name="life" type="constant" value="5"/>
+	<spawn_property name="fade" type="constant" value="255"/>
+
+	<affector>
+		<property type="fade"/>
+ 		<property startValue="155"/>
+ 		<property endValue="0"/>
+ 	</affector>
+
+</Emitter>

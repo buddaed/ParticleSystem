@@ -1,0 +1,16 @@
+<Emitter>	
+	<emitter_property matName="generic" blending="none" num_particles="1000"
+ duration="-1.0" mode="continuous" type="sphere" radius="10" randomBirthRate="true" minBirthRate="100" maxBirthRate="500"
+ />
+
+ 	<spawn_property name="velocity" type="random" minX="-5" minY="1" minZ="0" maxX="5" maxY="10" maxZ="0"/>
+ 	<spawn_property name="color" type="constant" valueR="255" valueG="255" valueB="0"/>
+ 	<spawn_property name="size" type="random" min="16" max="24"/>
+	<spawn_property name="life" type="random" min="1" max="10"/>
+	<spawn_property name="fade" type="constant" value="255"/>
+
+ 	<affector type="fade">
+ 		<property startValue="255"/>
+ 		<property endValue="0"/>
+ 	</affector>
+</Emitter>

@@ -1,0 +1,9 @@
+[submodule "thirdparty"]
+	path = thirdparty
+	url = git@gitlab.com:cs4351/thirdparty
+[submodule "samplefw"]
+	path = samplefw
+	url = git@gitlab.com:cs4351/samplefw
+[submodule "wolf"]
+	path = wolf
+	url = git@gitlab.com:cs4351/wolf.git

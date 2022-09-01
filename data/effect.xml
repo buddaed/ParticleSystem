@@ -1,0 +1,7 @@
+<Effect>	
+
+	<emitter file="data/fire.emitter.xml" xoffset="0" yoffset="0" zoffset="0"/>
+	 <emitter file="data/smoke.emitter.xml" xoffset="0" yoffset="3.5" zoffset="0"/>
+
+
+</Effect>

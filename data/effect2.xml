@@ -1,0 +1,6 @@
+<Effect>	
+
+	<emitter file="data/magic.emitter.xml" xoffset="0" yoffset="-1" zoffset="0"/>
+	<emitter file="data/magic.emitter2.xml" xoffset="0" yoffset="-1" zoffset="0"/>
+
+</Effect>

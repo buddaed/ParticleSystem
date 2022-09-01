@@ -1,0 +1,18 @@
+<Emitter>	
+	<emitter_property matName="fire" texture="data/brightParticle.png" rotationX="0" rotationY="0" rotationZ="0" blending="additive" num_particles="1000"
+ duration="-1.0" mode="continuous" type="sphere" radius="1" randomBirthRate="true" minBirthRate="400" maxBirthRate="1000"
+ />
+
+ 	<spawn_property name="velocity" type="random" minX="-2" minY="2" minZ="0" maxX="2" maxY="4" maxZ="0"/>
+ 	<spawn_property name="color" type="constant" valueR="255" valueG="50" valueB="0"/>
+ 	<spawn_property name="scale" type="constant" value="50"/>
+	<spawn_property name="life" type="constant" value="2"/>
+	<spawn_property name="fade" type="constant" value="255"/>
+
+	<affector>
+		<property type="scale"/>
+ 		<property startValue="50"/>
+ 		<property endValue="0"/>
+ 	</affector>
+
+</Emitter>

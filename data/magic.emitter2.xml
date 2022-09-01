@@ -1,0 +1,26 @@
+<Emitter>	
+	<emitter_property matName="magic2" texture="data/nordicRune2.png" blending="fade" rotationX="90" rotationY="0" rotationZ="0" num_particles="1000"
+ duration="-1.0" mode="continuous" type="circleEdge" radius="10" randomBirthRate="true" minBirthRate="100" maxBirthRate="200"
+ />
+
+	<spawn_property name="rotation" x="-90" y="0" z="0"/>
+ 	<spawn_property name="velocity" type="constant" x="0" y="0" z="0"/>
+ 	<spawn_property name="color" type="constant" valueR="255" valueG="0" valueB="0"/>
+ 	<spawn_property name="scale" type="constant" value="50"/>
+	<spawn_property name="life" type="random" min="1" max="4"/>
+	<spawn_property name="fade" type="constant" value="255"/>
+
+	<affector>
+		<property type="fade"/>
+ 		<property startValue="255"/>
+ 		<property endValue="0"/>
+ 	</affector>
+	<affector>
+		<property type="addVelocity"/>
+ 		<property x="0"/>
+ 		<property y="1"/>
+		<property z="0"/>
+ 	</affector>
+
+
+</Emitter>
