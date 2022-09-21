@@ -35,10 +35,9 @@ If dev environment not set up yet from other samples or TechLab 2050, follow the
 ### Building samples
 
 1) Clone or download this repository.
-2) Go into the folder in Explorer, right click and go to TortoiseGit->Submodule Update
-3) Open the folder in VS Code
-4) Ctrl+Shift+P then type/choose CMake: Configure
-5) Choose one of the available options (e.g. Visual Studio Community 2017 Release - amd64)
+2) Open the folder in VS Code
+3) Ctrl+Shift+P then type/choose CMake: Configure
+4) Choose one of the available options (e.g. Visual Studio Community 2017 Release - amd64)
 5) Ctrl+Shift+P then type/choose CMake: Build
 6) Hit F5 to run in debugger if all compiled well
 7) You may need to choose "sample" from the dropdown the first time
@@ -61,11 +60,9 @@ If dev environment not set up yet from other samples or TechLab 2050, follow the
 ### Building samples
 
 1) Clone or download this repository.
-2) cd into the folder and run:
-```git submodule update --init```
-3) Open the folder in VS Code
-4) Ctrl+Shift+P then type/choose CMake: Configure
-5) Choose one of the available options (e.g. gcc)
+2) Open the folder in VS Code
+3) Ctrl+Shift+P then type/choose CMake: Configure
+4) Choose one of the available options (e.g. gcc)
 5) Ctrl+Shift+P then type/choose CMake: Build
 6) Hit F5 to run in debugger if all compiled well
 7) You may need to choose "sample" from the dropdown the first time
