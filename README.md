@@ -72,4 +72,4 @@ If dev environment not set up yet from other samples or TechLab 2050, follow the
 1) Go to project directory
 2) Open build folder
 3) Open debug folder
-4) run sample.exe
+4) Run sample.exe
