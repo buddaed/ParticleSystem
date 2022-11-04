@@ -66,3 +66,10 @@ If dev environment not set up yet from other samples or TechLab 2050, follow the
 5) Ctrl+Shift+P then type/choose CMake: Build
 6) Hit F5 to run in debugger if all compiled well
 7) You may need to choose "sample" from the dropdown the first time
+
+### running program sample
+
+1) Go to project directory
+2) Open build folder
+3) Open debug folder
+4) run sample.exe

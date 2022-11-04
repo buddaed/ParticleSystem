@@ -43,5 +43,5 @@ private:
     float pitch = 0.0f;
     float lastX;
     float lastY;
-    float speedMultiplier = 50;
+    float speedMultiplier = 10;
 };
